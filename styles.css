@@ -378,10 +378,12 @@ a {
 
 /* Media queries for mobile */
 @media only screen and (max-width: 599px) {
+  /* Reset default link styles */
   a {
     text-decoration: none;
   }
 
+  /* Define color classes */
   .white {
     color: white;
   }
@@ -390,6 +392,7 @@ a {
     color: #191970;
   }
 
+  /* Navbar styles */
   .navbar {
     display: flex;
     background-color: #007aa5;
@@ -410,11 +413,12 @@ a {
     padding: 10px;
   }
 
-  .menu-icon{
+  /* Mobile menu icon */
+  .menu-icon {
     display: block;
   }
 
-  /* Mobile Menu */
+  /* Mobile menu */
   .mobile-menu {
     display: none;
     flex-direction: column;
@@ -432,9 +436,8 @@ a {
     padding: 10px;
     display: block;
   }
- 
 
-  
+  /* Banner styles */
   .banner {
     padding: 40px 10px; /* Adjust padding for mobile */
   }
@@ -457,6 +460,7 @@ a {
     height: auto; /* Maintain aspect ratio */
   }
 
+  /* Button styles */
   .button1 {
     text-align: center; /* Center align the button */
   }
@@ -464,6 +468,8 @@ a {
   .button1 button {
     font-size: 14px; /* Reduce font size for button text */
   }
+
+  /* Content section styles */
   .de {
     display: flex;
     flex-direction: column; /* Change to column layout for mobile */
@@ -485,6 +491,8 @@ a {
     width: 100%; /* Make images fill the width of their container */
     height: auto; /* Maintain aspect ratio */
   }
+
+  /* Additional styles */
   .cenr1 {
     padding-bottom: 50px; /* Add some padding at the bottom */
   }
@@ -502,11 +510,7 @@ a {
     font-size: 14px; /* Reduce font size for paragraphs */
   }
 
-  .de {
-    display: flex;
-    flex-direction: column; /* Change to column layout */
-  }
-
+  /* FAQ section */
   .de12 {
     width: auto; /* Make each item fill the width */
     margin-bottom: 20px; /* Add space between items */
@@ -516,99 +520,126 @@ a {
     font-size: 20px; /* Reduce font size for headings */
     text-align: center; /* Center align headings */
   }
-.pas{
-  width: auto;
-}
+
+  /* Answer section */
+  .pas {
+    width: auto;
+  }
+
   .pas p {
     font-size: 14px; /* Reduce font size for paragraphs */
-    text-wrap:wrap ;
+    white-space: wrap;
     overflow: hidden;
-    /* text-align: center; */
   }
-  .m{
+
+  /* Margin adjustment */
+  .m {
     padding-right: 20px;
   }
+
+  /* Section padding */
   .q12 {
     padding: 20px; /* Add padding to the container */
   }
 
+  /* Section alignment */
   .q13 {
     text-align: center; /* Center align content */
   }
 
+  /* Section heading styles */
   .q13 h1 {
     font-size: 24px; /* Reduce font size for heading */
     margin-top: 0; /* Remove top margin for heading */
   }
 
+  /* Section paragraph styles */
   .q13 p {
     font-size: 14px; /* Reduce font size for paragraphs */
   }
 
+  /* Button margin adjustment */
   .button1 {
     margin-top: 20px; /* Add space between paragraph and button */
   }
 
+  /* Animated button styles */
   .animated-button {
     font-size: 16px; /* Adjust button font size */
     padding: 10px 20px; /* Adjust button padding */
   }
+
+  /* Reverse flex direction for mobile */
   .l1 {
     flex-direction: column-reverse; /* Reverse the order of flex items for mobile */
   }
 
+  /* Image column styles */
   .lim32,
   .lim0 {
-    width: auto; /* Set width to 100% for mobile */
+    width: auto; /* Set width to auto for mobile */
     text-align: center; /* Center align content */
     margin-bottom: 20px; /* Add margin between the two columns */
   }
 
+  /* Image styles */
   .lim {
     max-width: 100%; /* Ensure the image doesn't exceed the container width */
     height: auto; /* Maintain aspect ratio */
   }
 
+  /* Remove margin from the bottom of the image column */
   .lim0 {
-    margin-bottom: 0; /* Remove margin from the bottom of the image column */
+    margin-bottom: 0;
   }
 
+  /* Heading styles */
   .lim32 h1 {
     font-size: 24px; /* Adjust font size for heading */
   }
 
+  /* Paragraph styles */
   .lim32 p {
     font-size: 14px; /* Adjust font size for paragraphs */
   }
 
+  /* Adjust button margin */
   .button1 {
-    margin-top: 20px; /* Add margin between text and button */
+    margin-top: 20px;
   }
 
+  /* Adjust animated button styles */
   .animated-button {
-    font-size: 16px; /* Adjust button font size */
-    padding: 10px 20px; /* Adjust button padding */
+    font-size: 16px;
+    padding: 10px 20px;
   }
+
+  /* Footer content styles */
   .footer-content {
     padding: 20px; /* Adjust padding for mobile */
     flex-direction: column; /* Display footer items in a single column for mobile */
   }
 
+  /* Footer container styles */
   .footer-con {
     width: 100%; /* Set width to 100% for mobile */
     margin-bottom: 20px; /* Add margin between footer sections */
+    padding: 0px;
   }
 
+  /* Footer heading styles */
   .footer-con h3 {
     font-size: 24px; /* Adjust font size for headings */
     margin-bottom: 10px; /* Add margin below headings */
   }
 
+  /* Footer paragraph styles */
   .footer-con p {
     font-size: 14px; /* Adjust font size for paragraphs */
     margin-bottom: 10px; /* Add margin below paragraphs */
   }
 
+  /* Social media icon styles */
   .flex-box {
     display: flex;
     justify-content: space-between;
@@ -625,6 +656,7 @@ a {
     margin-right: 10px; /* Add margin between social media icons */
   }
 
+  /* Footer links styles */
   .footer-coni ul {
     list-style-type: none;
     padding: 0;
@@ -633,7 +665,9 @@ a {
   .footer-coni ul li {
     margin-bottom: 10px; /* Add margin below each link */
   }
-  .ki{
+
+  /* Adjust padding for footer menu item */
+  .ki {
     padding-left: 0px;
   }
 }
