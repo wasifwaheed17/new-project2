@@ -5,7 +5,7 @@
 
 body {
   margin: 0;
-}
+} 
 
 a {
   text-decoration: none;
@@ -13,10 +13,6 @@ a {
 
 .white {
   color: white;
-}
-
-.red {
-  color: #191970;
 }
 
 /* Navbar CSS */
@@ -73,6 +69,7 @@ a {
   padding: 8px;
   margin-top: 5px;
 }
+
 .ico {
   height: 20px;
   width: 20px;
@@ -103,100 +100,107 @@ a {
 .sw{
   display: flex;
 }
+
 .banner div h2 {
   font-size: 30px;
   color: white;
   margin-bottom: 0px;
 }
+
 .qa{
   color: white;
 }
-/* .banner div {
-  text-align: center;
-}
 
-.banner div h4 {
-  color: white;
-} */
 .wr{
   font-size: 40px;
   color: white;
 }
+
 .d{
   background-color: #007aa5;
   padding-top: 30px;
   padding-bottom: 20px;
 }
+
 .de{
   display: flex;
   justify-content: space-around;
   background-color: transparent;
   background-image: linear-gradient(180deg, #2900D1 0%, #000000 100%);
   width: 1200px;
-  /* margin-top: 30px; */
   margin-left: 80px;
   margin-right: 80px;
-  /* margin-bottom: 10px; */
 }
+
 .de1{
-width: 300px;
+  width: 300px;
 }
+
 .de1 h1{
   font-size: 35px;
   color: white;
 }
+
 .de12{
   width: 400px;
-  }
+}
+
 .de1 img{
-  /* height: 200px; */
   width: 300px;
   height: 250px;
 }
+
 .h21{
-color: #ffffff;
-font-size: 25px;
+  color: #ffffff;
+  font-size: 25px;
 }
+
 .pas{
   width: 300px;
 }
+
 .pas p{
   color: white;
 }
+
 .cenr0{
   margin-top: 0px ;
   padding-top: 50px;
   background-color: #0F89B4 ;
 }
+
 .cenr1{
   padding-bottom: 150px;
-  
 }
+
 .m{
   padding-left: 20px;
 }
+
 .k {
   color: white;
 }
 
-
-
 .cenr{
   text-align: center;
 }
+
 .cenr h1{
   font-size: 50px;
   margin-top: 0px;
   color: white;
 }
+
 .cenr p{
   color: white;
   padding-bottom: 50px;
 }
+
 .q12{
   padding: 50px 100px 100px 100px;
   background-color: #2900D1
 }
+
 .q13{
   border-radius: 6px 6px 6px 6px;
   background-color: #000000;
@@ -204,36 +208,43 @@ font-size: 25px;
   padding: 20px 20px 20px 20px;
   width:auto;
   height: 250px;
-  /* text-align: center; */
 }
+
 .q13 h1{
   margin-top: 0px;
   font-size: 50px;
 }
+
 .bt{
   text-align: right;
 }
+
 .l1{
   margin-top: 50px;
   display: flex;
   justify-content: flex-start;
 }
+
 .lim0{
   padding-right: 50px;
   padding-left: 50px;
   padding-top: 20px;
 }
+
 .lim32{
   padding-left: 20px;
   width: 500px;
 }
+
 .lim32 h1{
   color: #191970;
 }
+
 .lim{
   width: 600px;
   height:300px;
 }
+
 .button1 button {
   font-size: 20px;
   text-align: center;
@@ -263,152 +274,6 @@ font-size: 25px;
   background-color: green;
   transform: scale(1.1);
 }
-/* Product Section */
-.product {
-  padding: 50px 100px;
-}
-
-.section-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid gray;
-  margin-bottom: 50px;
-}
-
-.section-header h1 {
-  font-size: 35px;
-  margin: 0;
-  color: #007aa5;
-}
-
-.product-main {
-  display: flex;
-  justify-content: space-between;
-}
-
-.product-item {
-  
-  width: 28%;
-  border: 1px solid gray;
-  border-radius: 10px;
-  margin: 50px 0px;
-  box-shadow: 3px 3px 10px gray;
-}
-
-.product-item img {
-  border-radius: 10px 10px 0px 0px;
-}
-
-.flex-box {
-  display: flex;
-  justify-content: space-between;
-  width: 325px;
-}
-
-.product-inner {
-  padding: 20px;
-}
-
-.flex-box h3 {
-  margin: 0%;
-  color: #007aa5;
-}
-
-.flex-box ul {
-  display: flex;
-  
-  list-style-type: none;
-  padding: 0px;
-}
-.w1{
-  padding-right: 20px;
-}
-
-.flex-box ul li {
-  margin-right: 5px;
-}
-
-.button2 {
-  background-color: #b6d0e2;
-  border: 1px solid #007aa5;
-  padding: 5px 15px;
-  color: white;
-  border-radius: 10px;
-  cursor: pointer;
-  margin-top: 10px; /* Add margin to separate the button from the content */
-  margin-right: 50px;
-}
-.additional-section {
-  text-align: center;
-  padding: 20px;
-}
-
-/* Style the heading */
-.additional-section h1 {
-  color: #007aa5;
-  font-size: 45px;
-}
-
-/* Style the paragraph */
-.additional-section p {
-  text-align: center;
-  font-size: 19px;
-  line-height: 1.4;
-  padding-left: 220px;
-  padding-right: 220px;
-}
-
-/* Style the list */
-.additional-section ul {
-  list-style-type: disc;
-  margin-left: 80px;
-  padding-left: 540px;
-  text-align: left;
-}
-
-/* Style the list items */
-.additional-section li {
-  font-size: 16px;
-  line-height: 1.4;
-}
-
-/* Center align the image */
-.additional-section .right-image {
-  display: block;
-  margin: 0 auto;
-}
-
-.third {
-  padding: 20px 100px;
-}
-
-.third-section h1 {
-  font-size: 75px;
-  color: #007aa5;
-  margin: 0;
-  text-align: center;
-}
-
-.third-text {
-  font-size: 21px;
-  text-align: center;
-  display: flex;
-  width: 100%;
-  margin: 10px 20px 20px;
-}
-
-.text2 {
-  text-align: center;
-  font-size: 25px;
-  color: #007aa5;
-}
-
-.call {
-  color: gray;
-  text-align: center;
-  font-size: 22px;
-}
 
 .footer-content {
   background-color: #007aa5;
@@ -423,33 +288,47 @@ font-size: 25px;
   display: flex;
   height: auto;
 }
-.flex-box-2{
-  display: flex;
-  justify-content: space-between;
-  width: 325px;
-  list-style: none;
-}
-.footer-con{
 
+.footer-con{
   width: 400px;
   padding: 25px;
-
-
 }
+
 .footer-coni ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  
 }
+
 .footer-coni a {
-color: white;
-padding-bottom: 25px;
+  color: white;
+  padding-bottom: 25px;
 }
+
 .ki{
   padding-left: 30px;
 }
+.flex-box {
+  display: flex;
+  justify-content: space-between;
+  width: 325px;
+}
+
+.flex-box ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.flex-box ul li {
+  margin-right: 5px;
+}
+
+.w1 {
+  padding-right: 20px;
+}
+
 
 /* Media queries for tablets */
 @media only screen and (min-width: 600px) {
@@ -461,8 +340,12 @@ padding-bottom: 25px;
     padding: 15px;
   }
 
-  .banner div h1 {
+  .banner .sw div h2 {
     font-size: 50px;
+  }
+
+  .q13 h1{
+    font-size: 30px;
   }
 
   .section-header h1 {
@@ -514,9 +397,11 @@ padding-bottom: 25px;
     justify-content: space-between;
     padding: 0px 10px;
   }
+
   .navbar ul {
     display: none;
   }
+
   .navbar ul li {
     margin: 10px 0;
   }
@@ -524,124 +409,235 @@ padding-bottom: 25px;
   .navbar ul li a {
     padding: 10px;
   }
+
   .menu-icon{
     display: block;
   }
-/* Mobile Menu */
-.mobile-menu {
+
+  /* Mobile Menu */
+  .mobile-menu {
+    display: none;
+    flex-direction: column;
+    background-color: #007aa5;
+    padding: 20px;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    left: 0;
+  }
+
+  .mobile-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+  }
+ 
+
   
-  display: none;
-  flex-direction: column;
-  background-color: #007aa5;
-  padding: 20px;
-  position: absolute;
-  top: 70px;
-  right: 0;
-  left: 0;
-}
-
-.mobile-menu a {
-  color: white;
-  text-decoration: none;
-  padding: 10px;
-  display: block;
-}
-
-/* Close Button */
-.close-button {
-  color: white;
-  cursor: pointer;
-  text-align: right;
-}
-.gtr {
-  display: none;
-}
   .banner {
-    padding: 40px 10px;
-    height: auto;
+    padding: 40px 10px; /* Adjust padding for mobile */
+  }
+
+  .banner div {
+    text-align: center; /* Center align content */
+    margin-bottom: 20px; /* Add some space between content and image */
+  }
+
+  .banner div h2 {
+    font-size: 24px; /* Reduce font size for heading */
+  }
+
+  .banner div p {
+    font-size: 14px; /* Reduce font size for paragraphs */
+  }
+
+  .banner div img {
+    width: 100%; /* Make the image fill the width of the container */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .button1 {
+    text-align: center; /* Center align the button */
+  }
+
+  .button1 button {
+    font-size: 14px; /* Reduce font size for button text */
+  }
+  .de {
+    display: flex;
+    flex-direction: column; /* Change to column layout for mobile */
+    align-items: center; /* Center align items */
     width: auto;
-    font-size: 12px;
   }
 
-  .banner div h1 {
-    font-size: 24px;
+  .de1 {
+    width: 100%; /* Make each item fill the width */
+    margin-bottom: 20px; /* Add space between items */
   }
-  .section-header {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+
+  .de1 h1 {
+    font-size: 20px; /* Reduce font size for headings */
+    text-align: center; /* Center align headings */
   }
-  .section-header h1 {
-    font-size: 14px;
+
+  .de1 img {
+    width: 100%; /* Make images fill the width of their container */
+    height: auto; /* Maintain aspect ratio */
   }
-  .product {
-    padding: 0;
-    
+  .cenr1 {
+    padding-bottom: 50px; /* Add some padding at the bottom */
   }
-  .product-main{
+
+  .cenr {
+    text-align: center; /* Center align content */
+    margin-bottom: 30px; /* Add some space at the bottom */
+  }
+
+  .cenr h1 {
+    font-size: 24px; /* Reduce font size for heading */
+  }
+
+  .cenr p {
+    font-size: 14px; /* Reduce font size for paragraphs */
+  }
+
+  .de {
     display: flex;
-    flex-direction: column;
-    
-  }
-  .product-item {
-    width: 90%;
-    margin: 10px 0;
-    margin-left: 20px;
-    margin-right: 20px;
-    
+    flex-direction: column; /* Change to column layout */
   }
 
-  .additional-section h1{
-    font-size: 12px;
-  }
-  .additional-section p {
-    font-size: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+  .de12 {
+    width: auto; /* Make each item fill the width */
+    margin-bottom: 20px; /* Add space between items */
   }
 
-  .additional-section ul {
-    margin-left: 10px;
-    padding-left: 10px;
+  .de12 h1 {
+    font-size: 20px; /* Reduce font size for headings */
+    text-align: center; /* Center align headings */
   }
-  .additional-section li{
-    font-size: 10px;
+.pas{
+  width: auto;
+}
+  .pas p {
+    font-size: 14px; /* Reduce font size for paragraphs */
+    text-wrap:wrap ;
+    overflow: hidden;
+    /* text-align: center; */
   }
-  .additional-section .right-image {
-    width: 100%;
-    height: auto;
+  .m{
+    padding-right: 20px;
   }
-  .third{
-    display: flex;
-    flex-direction: column;
-    padding: 60px;
-    margin-right:50px ;
+  .q12 {
+    padding: 20px; /* Add padding to the container */
   }
-  .third-section h1 {
-    font-size: 12px;
-    padding-left: 30px;
+
+  .q13 {
+    text-align: center; /* Center align content */
   }
-  .third-text {
-    font-size: 10px;
+
+  .q13 h1 {
+    font-size: 24px; /* Reduce font size for heading */
+    margin-top: 0; /* Remove top margin for heading */
   }
-  .text2{
-    font-size: 12px;
+
+  .q13 p {
+    font-size: 14px; /* Reduce font size for paragraphs */
   }
-  .call{
-    font-size: 10px;
+
+  .button1 {
+    margin-top: 20px; /* Add space between paragraph and button */
+  }
+
+  .animated-button {
+    font-size: 16px; /* Adjust button font size */
+    padding: 10px 20px; /* Adjust button padding */
+  }
+  .l1 {
+    flex-direction: column-reverse; /* Reverse the order of flex items for mobile */
+  }
+
+  .lim32,
+  .lim0 {
+    width: auto; /* Set width to 100% for mobile */
+    text-align: center; /* Center align content */
+    margin-bottom: 20px; /* Add margin between the two columns */
+  }
+
+  .lim {
+    max-width: 100%; /* Ensure the image doesn't exceed the container width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .lim0 {
+    margin-bottom: 0; /* Remove margin from the bottom of the image column */
+  }
+
+  .lim32 h1 {
+    font-size: 24px; /* Adjust font size for heading */
+  }
+
+  .lim32 p {
+    font-size: 14px; /* Adjust font size for paragraphs */
+  }
+
+  .button1 {
+    margin-top: 20px; /* Add margin between text and button */
+  }
+
+  .animated-button {
+    font-size: 16px; /* Adjust button font size */
+    padding: 10px 20px; /* Adjust button padding */
   }
   .footer-content {
-    padding: 20px;
-    font-size: 12px;
+    padding: 20px; /* Adjust padding for mobile */
+    flex-direction: column; /* Display footer items in a single column for mobile */
   }
 
-  /* Close Button Styles */
-  .close-button {
-    text-align: left;
-    padding: 10px;
+  .footer-con {
+    width: 100%; /* Set width to 100% for mobile */
+    margin-bottom: 20px; /* Add margin between footer sections */
+  }
+
+  .footer-con h3 {
+    font-size: 24px; /* Adjust font size for headings */
+    margin-bottom: 10px; /* Add margin below headings */
+  }
+
+  .footer-con p {
+    font-size: 14px; /* Adjust font size for paragraphs */
+    margin-bottom: 10px; /* Add margin below paragraphs */
+  }
+
+  .flex-box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .flex-box ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .flex-box ul li {
+    margin-right: 10px; /* Add margin between social media icons */
+  }
+
+  .footer-coni ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .footer-coni ul li {
+    margin-bottom: 10px; /* Add margin below each link */
+  }
+  .ki{
+    padding-left: 0px;
   }
 }
-/* .b{ */
-  /* klkm  */
-/* } */
+
+
+
+
